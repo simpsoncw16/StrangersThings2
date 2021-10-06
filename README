@@ -1,0 +1,13 @@
+post = {
+    active:
+    author:
+        _id:
+        username:
+    cohort:
+    title:
+    description:
+    price:
+    createdAt:
+    updatedAt:
+    isAuthor:
+}
