@@ -1,9 +1,16 @@
 import React, { useEffect, useState } from 'react';
 
+const api = 'https://strangers-things.herokuapp.com/api/2107-CSU-RM-WEB-PT/';
+
 const Register = () => {
     return <>
     <form onSubmit={() => {
-            //let username = 3;
+            //get info from inputs
+            
+            //send request to api
+            //get back token, store in state
+            
+            
     }}>
         <label> username: </label>
         <input type="text" name="username" required/>
@@ -11,7 +18,7 @@ const Register = () => {
         <input type="text" name="password" required/>
         <label> confirm password: </label>
         <input type="text" name="password2" required/>
-        <input type="button" value="Submit"/>
+        <input type="button" value="submit"/>
     </form>
     </>
 }
