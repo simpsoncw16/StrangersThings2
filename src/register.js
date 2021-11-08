@@ -10,6 +10,7 @@ const Register = () => {
             //send request to api
             //get back token, store in state
             
+            //figure out how to get token to other files
             
     }}>
         <label> username: </label>
